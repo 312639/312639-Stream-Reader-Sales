@@ -1,0 +1,30 @@
+﻿<Window x:Class="_312639Reader_Challange.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_312639Reader_Challange"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <Button x:Name="Sales" Content="Click to see Sales" Click="Sales_Click" Width="520"/>
+        <RadioButton x:Name="Jan" Content="January" Canvas.Top="25" />
+        <RadioButton x:Name="Feb" Content="Febuary" Canvas.Top="25" Canvas.Left="125"/>
+        <RadioButton x:Name="Mar" Content="March " Canvas.Top="25" Canvas.Left="225"/>
+        <RadioButton x:Name="Apr" Content="April " Canvas.Top="25" Canvas.Left="325"/>
+        <RadioButton x:Name="May" Content="May " Canvas.Top="25" Canvas.Left="425"/>
+        <RadioButton x:Name="Jun" Content="June " Canvas.Top="50"/>
+        <RadioButton x:Name="Jul" Content="July " Canvas.Top="50" Canvas.Left="125"/>
+        <RadioButton x:Name="Aug" Content="August" Canvas.Top="50" Canvas.Left="225"/>
+        <RadioButton x:Name="Sep" Content="September" Canvas.Top="50" Canvas.Left="325"/>
+        <RadioButton x:Name="Oct" Content="October" Canvas.Top="50" Canvas.Left="425"/>
+        <RadioButton x:Name="Nov" Content="November" Canvas.Top="75" Canvas.Left="175"/>
+        <RadioButton x:Name="Dec" Content="Dcember" Canvas.Top="75" Canvas.Left="300"/>
+        <Label FontSize="14" Canvas.Left="235" Canvas.Top="100">2017 Sales</Label>
+        <Label Canvas.Left="245" Canvas.Top="125" x:Name="lblOutput2017"/>
+        <Label FontSize="14" Canvas.Left="235" Canvas.Top="150">2018 Sales</Label>
+        <Label Canvas.Left="245" Canvas.Top="175" x:Name="lblOutput2018"/>
+        <Label FontSize="14" Canvas.Left="170" Canvas.Top="200">Average Sales for the Month Selected</Label>
+        <Label Canvas.Left="215" Canvas.Top="225" x:Name="lblOutputAverage"/>
+    </Canvas>
+</Window>
